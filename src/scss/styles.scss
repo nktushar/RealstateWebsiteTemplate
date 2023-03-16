@@ -1,6 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
 
-// .btn-primary, .btn-primary:hover,.btn-primary:active{
-//     background-color: #000!important;
-//     border-color: #000!important;
-// }
+
+:root{
+    /* ========= Theme ========== */
+    --color-blue: #3b50df;
+    --color-grey: #616679;
+    --color-nevy: #201e42;
+    --color-red: #ff5771;
+
+    --transition: all 400ms ease;
+}
+
+
+
+.btn-primary, .btn-primary:hover,.btn-primary:active{
+    background-color: #000000!important;
+    border-color: #000!important;
+}
+
+.nav-bar{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+
+.nav-link,.navbar-brand{
+    color: rgb(0, 0, 0);
+}
+
+.nav-link.active{
+    border-bottom: 5px solid var(--color-nevy);
+}
+
+.signup-btn{
+    background-color: var(--color-red);
+    width: 7rem;
+}
+
+
+// ++++++++++++++++ Header ++++++++++++++++
